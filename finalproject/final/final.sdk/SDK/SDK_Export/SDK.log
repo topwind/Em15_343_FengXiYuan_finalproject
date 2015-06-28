@@ -1,0 +1,125 @@
+13:16:37.440 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:13.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:23:13.195 INFO  - PS initialization will be done as it is not done before. 
+13:23:13.195 INFO  - Running PS initialization.... 
+13:23:13.507 INFO  - ps7_init is completed. 
+13:23:13.617 INFO  - PS Initialization is complete. 
+13:25:51.725 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:54:43.331 INFO  - Processing command line option -hwspec D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+20:54:43.626 INFO  - The hardware specification for project 'hw_platform_0' is different from D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+20:54:45.136 INFO  - Copied contents of D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+20:54:45.159 INFO  - Copied contents of D:\study\embededLinx\shiyan2\lab\project\finalproject\final\final.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
+20:54:54.202 INFO  - Copied contents of D:\study\embededLinx\shiyan2\lab\project\finalproject\final\final.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+20:54:55.426 INFO  - Copied contents of D:\study\embededLinx\shiyan2\lab\project\finalproject\final\final.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+20:54:55.433 INFO  - Copied contents of D:\study\embededLinx\shiyan2\lab\project\finalproject\final\final.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+20:54:55.436 INFO  - Copied contents of D:\study\embededLinx\shiyan2\lab\project\finalproject\final\final.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+20:54:55.438 INFO  - Copied contents of D:\study\embededLinx\shiyan2\lab\project\finalproject\final\final.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+20:54:55.738 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:54:58.232 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: button, driver: gpio_v3_01_a.
+			Peripheral Instance: led, driver: gpio_v3_01_a.
+ 
+20:55:00.465 INFO  - Updating hardware inferred compiler options for mem_test. 
+20:55:00.482 INFO  - Clearing existing target manager status. 
+20:55:05.199 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
+20:55:07.952 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+21:02:10.326 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:03:01.768 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:03:01.868 INFO  - PS initialization will be done as it is not done before. 
+21:03:01.868 INFO  - Running PS initialization.... 
+21:03:02.172 INFO  - ps7_init is completed. 
+21:03:02.272 INFO  - ps7_post_config is completed. 
+21:03:02.372 INFO  - PS Initialization is complete. 
+21:12:30.046 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:15:40.735 INFO  - Processing command line option -hwspec D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+21:16:01.597 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:16:26.370 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:16:26.480 INFO  - PS initialization will be done as it is not done before. 
+21:16:26.480 INFO  - Running PS initialization.... 
+21:16:26.745 INFO  - ps7_init is completed. 
+21:16:26.854 INFO  - ps7_post_config is completed. 
+21:16:26.963 INFO  - PS Initialization is complete. 
+21:22:49.375 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:23:06.426 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:23:06.426 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:23:06.536 INFO  - PS initialization will be done as it is not done before. 
+21:23:06.536 INFO  - PS initialization will be done as it is not done before. 
+21:23:06.536 INFO  - Running PS initialization.... 
+21:23:06.536 INFO  - Running PS initialization.... 
+21:23:06.848 INFO  - ps7_init is completed. 
+21:23:06.848 INFO  - ps7_init is completed. 
+21:23:06.957 INFO  - ps7_post_config is completed. 
+21:23:06.957 INFO  - PS Initialization is complete. 
+21:24:06.853 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+21:24:06.853 ERROR - Timeout occured while waiting to get reply for command "ps7_post_config" 
+21:24:06.853 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_post_config method.
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_post_config(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+21:24:49.639 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:25:15.910 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:25:19.732 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+21:32:39.169 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:32:54.613 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:32:58.623 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+21:33:09.184 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:33:36.417 INFO  - Processing command line option -hwspec D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+21:33:53.613 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:34:11.849 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:34:11.959 INFO  - PS initialization will be done as it is not done before. 
+21:34:11.959 INFO  - Running PS initialization.... 
+21:34:12.239 INFO  - ps7_init is completed. 
+21:34:12.349 INFO  - ps7_post_config is completed. 
+21:34:12.458 INFO  - PS Initialization is complete. 
+21:35:51.822 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:05:42.315 INFO  - Processing command line option -hwspec D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+23:06:45.695 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+23:07:03.916 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:07:04.025 INFO  - PS initialization will be done as it is not done before. 
+23:07:04.025 INFO  - Running PS initialization.... 
+23:07:04.290 INFO  - ps7_init is completed. 
+23:07:04.399 INFO  - ps7_post_config is completed. 
+23:07:04.508 INFO  - PS Initialization is complete. 
+23:09:05.714 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:55:32.807 INFO  - Processing command line option -hwspec D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+15:44:40.677 INFO  - Processing command line option -hwspec D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw/system.xml. 
+15:45:42.537 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+15:47:13.953 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:47:14.062 INFO  - PS initialization will be done as it is not done before. 
+15:47:14.062 INFO  - Running PS initialization.... 
+15:47:14.343 INFO  - ps7_init is completed. 
+15:47:14.452 INFO  - ps7_post_config is completed. 
+15:47:14.561 INFO  - PS Initialization is complete. 
+15:56:39.456 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+15:56:54.926 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:56:55.035 INFO  - PS initialization will be done as it is not done before. 
+15:56:55.035 INFO  - Running PS initialization.... 
+15:56:55.300 INFO  - ps7_init is completed. 
+15:56:55.410 INFO  - ps7_post_config is completed. 
+15:56:55.519 INFO  - PS Initialization is complete. 
+15:58:46.307 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+15:59:06.463 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:59:06.572 INFO  - PS initialization will be done as it is not done before. 
+15:59:06.572 INFO  - Running PS initialization.... 
+15:59:06.868 INFO  - ps7_init is completed. 
+15:59:06.977 INFO  - ps7_post_config is completed. 
+15:59:07.087 INFO  - PS Initialization is complete. 
+16:00:16.970 INFO  - FPGA configured successfully with bitstream "D:/study/embededLinx/shiyan2/lab/project/finalproject/final/final.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+16:00:53.256 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:00:53.365 INFO  - PS initialization will be done as it is not done before. 
+16:00:53.365 INFO  - Running PS initialization.... 
+16:00:53.646 INFO  - ps7_init is completed. 
+16:00:53.755 INFO  - ps7_post_config is completed. 
+16:00:53.865 INFO  - PS Initialization is complete. 
+16:07:00.690 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
